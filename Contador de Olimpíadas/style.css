@@ -1,0 +1,49 @@
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #050505;
+	padding: 10px 20px;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#f7ff00),
+		to(#ffbf00));
+	background: linear-gradient(
+		top,
+		#f7ff00 0%,
+		#ffbf00);
+	border-radius: 30px;
+	border: 5px solid #000000;
+	box-shadow:
+		5px 4px 3px rgba(000,000,000,0.6),
+		inset 6px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		13px 6px 0px rgba(255,255,255,0.3);
+  transition: .2s ease;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+button.css3button:active {
+  background-color: #3072e0;
+  font-size: .98em;
+  transition: .1s easeout;
+}
+
+button.css3button:hover {
+/*   background-image: linear-gradient(
+    rgba(255,255,255,.25),
+    rgba(255,255,255,.25)
+  ) */
+  background-color: #4082f0;
+  opacity: 1;
+}
+
+button.css3button{
+    -webkit-transition: .3s ease-in-out;
+    -moz-transition: .3s ease-in-out;
+    -ms-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0.5;
+}
