@@ -1,0 +1,12 @@
+*{
+  background-color: #FAFAD2; 
+  font-family: Trebuchet MS, sans-serif;
+}
+
+img {
+  position: absolute;
+  left: 300px;
+  top: 70px;
+  marging-right: 400px;
+  width: 250px;
+}
